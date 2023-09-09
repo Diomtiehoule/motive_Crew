@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    transition: .2s;
+}
+a:hover{
+    border: 1px solid;
+    padding: 1px;
+}
+.pp{
+    border: 1px solid;
+}
+body{
+    background-color: aliceblue;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color:cornflowerblue;
+    height: 8vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: fixed;
+}
+.logo h1{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    gap: 35px;
+}
+ul li{
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.main_image img{
+    width: 100%;
+}
+
+.infos_crew{
+    width: 40%;
+    height: auto;
+    margin-bottom: 15%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.infos_crew img{
+    margin-top: 2%;
+    width: 100%;
+    height: 50vh;
+}
+.info_principale h1{
+    font-size: 3rem;
+    margin-left: 1.5%;
+}
+.info_principale p{
+    margin-left: 1.5%;
+    font-size: 1.5rem;
+}
+
+
+.h1_methode{
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 2.3rem;
+}
+.methodes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.methode{
+    width: 25%;
+    height: 60vh;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.methode img{
+    width: 100%;
+    height: 30vh;
+}
+.methode p{
+    font-size: 1.3rem;
+    padding-top: 2%;
+    padding-left: 1%;
+}
+
+
+.divers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 15%;
+    width: 60%;
+    background-color: cornflowerblue;
+    margin-bottom: 10%;
+}
+.text p{
+    font-size: 1.5rem;
+    padding: 1%;
+}
+
+footer{
+    width: 100%;
+    padding-top: .5%;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer p{
+    font-size: 1.2rem;
+}
